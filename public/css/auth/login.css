@@ -1,0 +1,59 @@
+/* login.css */
+
+/* Body background */
+body {
+  background-color: #f8f8f8; /* Warna latar belakang yang lebih lembut */
+  font-family: Arial, sans-serif; /* Pilihan font yang lebih umum */
+  background-image: url('public\css\foto\DSCF9309.JPG'); /* Ganti dengan path foto Anda */
+  background-size: cover; /* Ukuran foto menutupi seluruh area background */
+  background-repeat: no-repeat; /* Foto tidak diulang */
+}
+
+/* Main container */
+.w-100 {
+  width: 100%; /* Lebar penuh */
+  max-width: 400px; /* Maksimum lebar elemen */
+  margin: auto; /* Membuat elemen berada di tengah secara horizontal */
+  padding: 30px; /* Padding lebih besar untuk kenyamanan */
+  background-color: #fff; /* Warna latar belakang putih */
+  border-radius: 12px; /* Border radius lebih besar untuk tampilan yang lembut */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan yang lebih halus */
+}
+
+/* Heading */
+.form-signin h1 {
+  color: #333; /* Warna teks yang lebih gelap */
+  text-align: center; /* Posisi teks di tengah */
+  margin-bottom: 30px; /* Ruang ekstra antara judul dan formulir */
+}
+
+/* Form input and labels */
+.form-floating input,
+.form-floating label {
+  color: #555; /* Warna teks yang lebih gelap */
+}
+
+/* Checkbox color */
+.form-check-input[type="checkbox"]:checked {
+  background-color: red; /* Merah */
+  border-color: red; /* Merah */
+}
+
+/* Button */
+.btn-primary {
+  background-color: red; /* Merah */
+  border-color: red; /* Merah */
+  color: white;
+  transition: background-color 0.3s ease; /* Transisi halus saat hover */
+}
+
+.btn-primary:hover {
+  background-color: #d60000; /* Warna yang lebih gelap saat hover */
+}
+
+/* Copyright text */
+.text-muted {
+  color: #777; /* Warna teks yang lebih gelap */
+  text-align: center; /* Posisi teks di tengah */
+  margin-top: 20px; /* Ruang ekstra di bagian atas */
+}
